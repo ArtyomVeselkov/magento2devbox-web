@@ -1,6 +1,6 @@
-FROM php:7.0.16-fpm
+FROM php:7.1.20-fpm
 
-MAINTAINER "Magento"
+MAINTAINER "Magento (php 7.1.20 Mod)"
 
 RUN mkdir /install
 

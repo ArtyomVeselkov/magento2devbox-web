@@ -8,7 +8,8 @@ set -x
 
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
-apt-get install -y python-software-properties
+apt-get install -my wget gnupg
+apt-get install -y software-properties-common
 curl -sL https://deb.nodesource.com/setup_8.x | bash -
 apt-get install -y nodejs
 npm update -g npm

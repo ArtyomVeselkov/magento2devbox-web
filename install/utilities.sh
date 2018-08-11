@@ -19,7 +19,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
       libxml2-dev libxslt1-dev \
       libfreetype6-dev \
       libjpeg62-turbo-dev \
-      libpng12-dev \
+      libpng-dev \
       git \
       vim \
       nano \
